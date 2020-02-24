@@ -1,0 +1,26 @@
+/**/
+a {
+    background: black;
+     padding: 10px 20px; 
+     color: white;
+      font-size: 20px;
+      text-align: center;
+}
+
+div {
+    height: 100vh; padding-top: 20px; font-size: 40px;
+}
+
+#first {
+    background: lightgray;}
+    #second {
+        background: orange;}
+        #first {
+            background: yellow;}
+            #third {
+                background: wheat;}
+                #fourth {
+                    background: green;}
+                    
+                    #top {position: fixed; bottom: 0; right: 0;}
+
