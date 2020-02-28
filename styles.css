@@ -2,18 +2,69 @@
 a {
     background:black;
      padding: 10px 20px; 
-     color: white;
+     color: orange;
       font-size: 20px;
       text-align: center;
 }
 
+
+
+
+
 #blob {
     width: 100px;
     height: 100px;
-    background: red;
+    background-image: url("img/ph1.jpg");
     position: relative;
+    left: 800px;
     animation: mymove 5s infinite;
     animation-timing-function: linear;
+    width: 300px;
+   
+}
+
+#blob2 {
+    width: 100px;
+    height: 100px;
+    background-image: url("img/ph1.jpg");
+    position: relative;
+    left: 800px;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    width: 300px;
+}
+
+#blob3 {
+    width: 100px;
+    height: 100px;
+    background-image: url("img/ph1.jpg");
+    position: relative;
+    left: 800px;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    width: 300px;
+}
+
+#blob4 {
+    width: 100px;
+    height: 100px;
+    background-image: url("img/ph1.jpg");
+    position: relative;
+    left: 800px;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    width: 300px;
+}
+
+#blob5 {
+    width: 100px;
+    height: 100px;
+    background-image: url("img/ph1.jpg");
+    position: relative;
+    left: 800px;
+    animation: mymove 5s infinite;
+    animation-timing-function: linear;
+    width: 300px;
 }
 
 @keyframes mymove {
@@ -30,15 +81,18 @@ div {
 
 
 #first {
-    background: lightgray;}
+    background: black;}
     #second {
-        background: orange;}
+        background:black ;}
         #first {
-            background: yellow;}
+            background: black;}
             #third {
-                background: wheat;}
+                background:black;}
                 #fourth {
-                    background: green;}
+                    background:black;}
+                    #fifth {
+                        background: black;
+                    }
                     
                     #top {position: fixed; bottom: 0; right: 0;}
 
