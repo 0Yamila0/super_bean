@@ -1,0 +1,23 @@
+body {
+    margin: 60;
+  }
+  .column {
+  float: left;
+  width: 25%;
+  padding: 0 10px;
+  }
+  .container::after, .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .row {
+    margin: 0 -5px;
+  }
+  * {
+    box-sizing: border-box;
+  }
+  div {
+    text-align: center;
+    color: black;
+  }
