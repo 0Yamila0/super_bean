@@ -7,8 +7,6 @@ a {
       text-align: center;
 }
 
-
-
 #blob {
     width: 100px;
     height: 100px;
@@ -16,11 +14,19 @@ a {
     position: relative;
     animation: mymove 5s infinite;
     animation-timing-function: linear;
-  }
-  @keyframes mymove {
+}
+
+@keyframes mymove {
     from {top: 0px;}
-    to {bottom: 200px;}
-  }
+    to {top: 850px;}
+}
+
+div {
+    height: 100vh; padding-top: 20px; font-size: 40px;
+
+}
+
+
 
 
 #first {
