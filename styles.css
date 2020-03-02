@@ -1,10 +1,11 @@
-/**/
-a {
-    background:black;
-     padding: 10px 20px; 
-     color: orange;
-      font-size: 20px;
-      text-align: center;
+
+
+     
+
+nav { background-image: url("");
+    background-size: 100%;
+    
+
 }
 
 
@@ -31,6 +32,8 @@ a {
     left: 800px;
     animation: mymove 5s infinite;
     animation-timing-function: linear;
+    animation-delay: 5s;
+    animation-play-state:paused 5s;
     width: 300px;
 }
 
@@ -42,6 +45,7 @@ a {
     left: 800px;
     animation: mymove 5s infinite;
     animation-timing-function: linear;
+    animation-delay: 10s;
     width: 300px;
 }
 
@@ -53,6 +57,7 @@ a {
     left: 800px;
     animation: mymove 5s infinite;
     animation-timing-function: linear;
+    animation-delay: 15s;
     width: 300px;
 }
 
@@ -62,8 +67,9 @@ a {
     background-image: url("img/ph1.jpg");
     position: relative;
     left: 800px;
-    animation: mymove 5s infinite;
+    animation: mymove 2s infinite;
     animation-timing-function: linear;
+    animation-delay: 20s;
     width: 300px;
 }
 
@@ -73,8 +79,8 @@ a {
 }
 
 div {
-    height: 100vh; padding-top: 20px; font-size: 40px;
-
+    height: 100vh; 
+    font-size: 40px;;
 }
 
 
@@ -92,6 +98,8 @@ div {
                     background:black;}
                     #fifth {
                         background: black;
+                       
+
                     }
                     
                     #top {position: fixed; bottom: 0; right: 0;}
