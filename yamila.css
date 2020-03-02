@@ -1,12 +1,22 @@
 
+body{background-color: rgb(140, 212, 240);}
+nav{font-family: Oslwald;}
+
 /* changes the color of the links, instead of just plain blue*/
 .nextstep { color: teal;}
+
 /* changes color of the card */
-.card {color: whitesmoke;}
+.card {position: relative;
+       justify-content: space-evenly;
+     border-style: double; }
 
 /* adds borders and color to the BS default button*/
 .btn-default {border:solid;
-              background-color: gray;}
+             background-color: gray; }
 
 /*changed the shape of the cards*/
-/*added a class name for card to shap borders and stuff named "colorcard"
+.section{font-family: 'Special Elite';}
+.headings{font-family: 'Oswald';}
+.list-group-item{background-color:  rgb(84, 186, 226);}
+
+    
