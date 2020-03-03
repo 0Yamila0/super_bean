@@ -1,5 +1,5 @@
 
-body{background-color: rgb(140, 212, 240);}
+body{background-color:  rgb(84, 186, 226);}
 nav{font-family: Oslwald;}
 
 /* changes the color of the links, instead of just plain blue*/
@@ -17,6 +17,10 @@ nav{font-family: Oslwald;}
 /*changed the shape of the cards*/
 .section{font-family: 'Special Elite';}
 .headings{font-family: 'Oswald';}
-.list-group-item{background-color:  rgb(84, 186, 226);}
+.list-group-item{background-color:  rgb(140, 212, 240);}
 
+
+.remove-all-margin{
+  margin:0 ! important;
+  }
     

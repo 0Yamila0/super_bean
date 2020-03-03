@@ -46,7 +46,7 @@ nav {
 }
 
 .space{
-  margin-top: 300px;
+  margin-top: 600px;
 }
 
 h2 {
@@ -55,4 +55,16 @@ h2 {
 
 p{
   text-align: center;
+}
+
+body {
+  background-color: #FFFF66;
+}
+.card{
+  background-color: black;
+  color: white;
+}
+
+.durations {
+  outline-width: thick;
 }
