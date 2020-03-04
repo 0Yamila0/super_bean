@@ -19,16 +19,16 @@
   <div class="collapse navbar-collapse" id="navbarNav">
     <ul class="navbar-nav">
       <li class="nav-item active">
-        <a class="nav-link" href="index.html"> Home</a>
+        <a class="nav-link" href="index.php"> Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="topsbean.html">Top Beans</a>
+        <a class="nav-link" href="topsbean.php">Top Beans</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="step1.html"> Build A Bean</a>
+        <a class="nav-link" href="step1.php"> Build A Bean</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="login.html"> Account</a>
+        <a class="nav-link" href="login.php"> Account</a>
       </li>
       
      
@@ -47,7 +47,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <a href="login.html">
+      <a href="login.php">
         <img src="img/yellowbeans.jpg" >
       </a>
       <div class="container">
@@ -75,7 +75,7 @@
 
   <div class="column">
     <div class="card">
-      <a href="login.html">
+      <a href="login.php">
         <img src="img/bluebeans.jpg" >
       </a>
       <div class="container">
@@ -104,7 +104,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <a href="login.html">
+      <a href="login.php">
         <img src="img/purplebeans.jpg" >
       </a>
       <div class="container">
@@ -133,7 +133,7 @@
 
     <div class="column">
       <div class="card">
-        <a href="login.html">
+        <a href="login.php">
           <img src="img/orangebeans.jpg" >
         </a>
         <div class="container">
@@ -162,7 +162,7 @@
 <div class="row">
   <div class="column">
     <div class="card">
-      <a href="login.html">
+      <a href="login.php">
         <img src="img/pinkbeans.jpg" >
       </a>
       <div class="container">
