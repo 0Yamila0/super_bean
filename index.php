@@ -10,7 +10,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg">
-    <a class="navbar-brand" href="index.html"> </a>
+    <a class="navbar-brand" href="index.php"> </a>
    
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
@@ -35,17 +35,17 @@
     <div class="space"></div>
       <div id="fifth">   <a onclick="toTop('first'); return false;" href= "#first">Go to Top</a>
 
-        <a class="navbar-brand" href="index.html"> </a>
-        <a class="nav-link" href="index.html"> Home <span class="sr-only">(current)</span></a>
+        <a class="navbar-brand" href="index.php"> </a>
+        <a class="nav-link" href="index.php"> Home <span class="sr-only">(current)</span></a>
    
 
-        <a class="nav-link" href="topsbean.html">Top Beans</a>
+        <a class="nav-link" href="topsbean.php">Top Beans</a>
   
   
-        <a class="nav-link" href="step1.html"> Build A Bean</a>
+        <a class="nav-link" href="step1.php"> Build A Bean</a>
   
 
-        <a class="nav-link" href="login.html"> Account</a>
+        <a class="nav-link" href="login.php"> Account</a>
 
       </footer>
 
