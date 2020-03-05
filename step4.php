@@ -1,4 +1,4 @@
-
+<?php include 'INC/navbar.php' ?>
 
 <p class="text-center">
   Insert Your Medical History Below!
