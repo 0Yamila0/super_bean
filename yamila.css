@@ -7,20 +7,20 @@ nav{font-family: Oslwald;}
 
 /* changes color of the card */
 .card {position: relative;
-       justify-content: space-evenly;
-     border-style: double; }
+  margin: auto;
+     border-style: double;
+     }
 
 /* adds borders and color to the BS default button*/
 .btn-default {border:solid;
              background-color: gray; }
 
-/*changed the shape of the cards*/
+
 .section{font-family: 'Special Elite';}
 .headings{font-family: 'Oswald';}
 .list-group-item{background-color:  rgb(140, 212, 240);}
 
+.aligncards{position: relative;
+  left: 30px;}
 
-.remove-all-margin{
-  margin:0 ! important;
-  }
     
