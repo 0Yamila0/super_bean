@@ -1,16 +1,6 @@
 
 
-     
 
-nav { background-image: url("");
-    background-size: 100%;
-
-    
-
-}
- nav a {
-     text-align: center;
- }
 
 
 
@@ -74,7 +64,7 @@ nav { background-image: url("");
     background-image: url("img/ph1.jpg");
     position: relative;
     left: 800px;
-    animation: mymove 2s infinite;
+    animation: mymove 5s infinite;
     animation-timing-function: linear;
     animation-delay: 20s;
     animation-iteration-count: 1;
@@ -111,8 +101,8 @@ ul p {
                     background:black;}
                     #fifth {
                         background: black;
+            
                        
-
                     }
                     
                     #top {position: fixed; bottom: 0; right: 0;}
@@ -120,12 +110,43 @@ ul p {
                     html {
                         scroll-behavior: smooth;
                     }
-
-                    footer {
-                        text-align: center;
-                        display: inline;
-                       
+                    h1{
+                        font-size: 200px;
                     }
 
+                    .navbar {
+                        overflow: hidden;
+                        background-color: #333;
+                        position: fixed;
+                        bottom: 0;
+                        width: 100%;
+                      }
 
-          
+                      .navbar a {
+                        float: left;
+                        display: block;
+                        color: #f2f2f2;
+                        text-align: center;
+                        padding: 14px 16px;
+                        text-decoration: none;
+                        font-size: 17px;
+                      }
+
+                      .navbar a:hover {
+                        background: #f1f1f1;
+                        color: black;
+                      }
+
+                      .navbar a.active {
+                        background-color: #4CAF50;
+                        color: white;
+                      }
+
+      
+
+                   
+
+
+                    
+
+                
