@@ -14,28 +14,9 @@
   <div class="content">
     
 <!---Start Navigation-->
-<nav class="navbar navbar-expand-lg">
-  <a class="navbar-brand" href="index.php"> </a>
-  <div class="collapse navbar-collapse" id="navbarNav">
-    <ul class="navbar-nav">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.php"> Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="topsbean.php">Top Beans</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="step1.php"> Build A Bean</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="login.php"> Account</a>
-      </li>
-      
-     
-     
-    </ul>
-  </div>
-</nav>
+<?php
+include 'INC/navbar.php'
+?>
 <!---End Navigation-->
 
 <h1>Top Beans</h1>
@@ -43,7 +24,7 @@
 <p> This is a list of our most popular beans.</p>
 
 <br>
-
+<!---Start Cards-->
 <div class="row">
   <div class="column">
     <div class="card">
@@ -184,6 +165,35 @@
       </div>
     </div>
   </div>
+  <div class="column">
+    <div class="card">
+      <a href="login.php">
+        <img src="img/blackbeans.jpg">
+      </a>
+      <div class="container">
+        <h2>Invisible</h2>
+        <p>The invisible bean allows the consumer to be invisible for the following durations: </p>
+        <ul class="durations">
+          <li>30 minutes</li>
+          <li>1 hour</li>
+          <li>1 hour and 30 minutes</li>
+          <li>2 hours</li>
+          <li>2 hours and 30 minutes</li>
+          <li>3 hours</li>
+          <li>3 hours and 30 minutes</li>
+          <li>4 hours</li>
+          <li>4 hours and 30 minutes</li>
+          <li>5 hours</li>
+          <li>5 hours and 30 minutes</li>
+        </ul>
+      </div>
+    </div>
+  </div>
 </div>
+<!---End Cards-->
+<div class="space2"></div>
+<?php
+include 'INC/footer.php'
+?>
 </body>
 </html>
