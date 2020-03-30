@@ -66,5 +66,12 @@
     </div>
     </div>
     </div>
+<!---Footer-->
+<footer>
+<div class="space2"></div>
+<?php
+include 'INC/footer.php'
+?>
+</footer>
 </body>
 </html>

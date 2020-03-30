@@ -168,7 +168,7 @@ include 'INC/navbar.php'
   <div class="column">
     <div class="card">
       <a href="login.php">
-        <img src="img/blackbeans.jpg">
+        <img src="img2/blackbeans.jpg">
       </a>
       <div class="container">
         <h2>Invisible</h2>
@@ -191,9 +191,11 @@ include 'INC/navbar.php'
   </div>
 </div>
 <!---End Cards-->
+<footer>
 <div class="space2"></div>
 <?php
 include 'INC/footer.php'
 ?>
+</footer>
 </body>
 </html>

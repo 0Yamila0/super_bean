@@ -40,5 +40,11 @@
 <br>
 
     <h1 class="section text-center"> ACCOUNT/LOGIN</h1>
-
+<!---Footer-->    
+<footer>
+<div class="space2"></div>
+<?php
+include 'INC/footer.php'
+?>
+</footer>
     </body>
