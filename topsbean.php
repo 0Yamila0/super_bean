@@ -168,7 +168,7 @@ include 'INC/navbar.php'
   <div class="column">
     <div class="card">
       <a href="login.php">
-        <img src="img2/blackbeans.jpg">
+        <img src="img/blackbeans.jpg">
       </a>
       <div class="container">
         <h2>Invisible</h2>
