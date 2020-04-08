@@ -1,3 +1,7 @@
+<?php
+    include_once 'includes/dbh.inc.php';
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -50,6 +54,8 @@ include 'INC/navbar.php'
       </div>
     </div>
   </div>
+
+  
 
 <br>
 
@@ -165,57 +171,26 @@ include 'INC/navbar.php'
       </div>
     </div>
   </div>
+</div>
+
+<div class="row">
   <div class="column">
-    <div class="card">
-      <a href="login.php">
-        <img src="img/blackbean.jpg">
-      </a>
-      <div class="container">
-        <h2>Invisible</h2>
-        <p>The invisible bean allows the consumer to be invisible for the following durations: </p>
-        <ul class="durations">
-          <li>30 minutes</li>
-          <li>1 hour</li>
-          <li>1 hour and 30 minutes</li>
-          <li>2 hours</li>
-          <li>2 hours and 30 minutes</li>
-          <li>3 hours</li>
-          <li>3 hours and 30 minutes</li>
-          <li>4 hours</li>
-          <li>4 hours and 30 minutes</li>
-          <li>5 hours</li>
-          <li>5 hours and 30 minutes</li>
-        </ul>
-      </div>
-    </div>
   </div>
 </div>
-<div class="column">
-    <div class="card">
-      <a href="login.php">
-        <img src="img/blackbeans.jpg">
-      </a>
-      <div class="container">
-        <h2>Invisible</h2>
-        <p>The invisible bean allows the consumer to be invisible for the following durations: </p>
-        <ul class="durations">
-          <li>30 minutes</li>
-          <li>1 hour</li>
-          <li>1 hour and 30 minutes</li>
-          <li>2 hours</li>
-          <li>2 hours and 30 minutes</li>
-          <li>3 hours</li>
-          <li>3 hours and 30 minutes</li>
-          <li>4 hours</li>
-          <li>4 hours and 30 minutes</li>
-          <li>5 hours</li>
-          <li>5 hours and 30 minutes</li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</div>
+
 <!---End Cards-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <footer>
 <div class="space2"></div>
 <?php
